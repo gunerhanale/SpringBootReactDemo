@@ -2,9 +2,7 @@ package com.crm.crm.model;
 
 import org.springframework.data.repository.CrudRepository;
 
-public class ContactRepository{
+public interface ContactRepository extends CrudRepository<Contact, Long>{
 
-    private void test() {
-        
-    }
+    
 }
