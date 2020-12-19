@@ -9,12 +9,12 @@ import lombok.Data;
 @Entity
 
 public class Contact {
-	private @Id @GeneratedValue Long Id;
-	private String firstName;
-	private String lastName;
-	private String email;
+	public @Id @GeneratedValue Long Id;
+	public String firstName;
+	public String lastName;
+	public String email;
 
-	private  Contact() {
+	public  Contact() {
 		
 	}
 
